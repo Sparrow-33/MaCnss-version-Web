@@ -43,12 +43,12 @@ public class PersistenceJpaConfig {
     return dataSource;
   }
 
-  @Bean
+  @Bean("entityManagerFactory")
   public LocalContainerEntityManagerFactoryBean entityManagerFactoryBean() {
     LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
     entityManagerFactoryBean.setDataSource(dataSource());
     entityManagerFactoryBean.setPackagesToScan(new String[] {
-       "com.macnss.entities"
+            "com.macnss.entities"
     });
     HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
     entityManagerFactoryBean.setJpaVendorAdapter(vendorAdapter);

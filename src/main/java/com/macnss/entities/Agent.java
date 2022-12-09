@@ -9,7 +9,7 @@ public class Agent {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "matricule")
-    private Object matricule;
+    private String matricule;
     @Basic
     @Column(name = "email")
     private String email;
@@ -21,7 +21,7 @@ public class Agent {
         return matricule;
     }
 
-    public void setMatricule(Object matricule) {
+    public void setMatricule(String matricule) {
         this.matricule = matricule;
     }
 

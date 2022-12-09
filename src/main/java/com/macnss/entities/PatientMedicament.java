@@ -18,10 +18,10 @@ public class PatientMedicament {
     @Column(name = "medicament")
     private Integer medicament;
     @ManyToOne
-    @JoinColumn(name = "dossier", referencedColumnName = "id")
+    @JoinColumn(name = "dossier", referencedColumnName = "id", insertable = false, updatable = false)
     private Dossier dossierByDossier;
     @ManyToOne
-    @JoinColumn(name = "medicament", referencedColumnName = "id")
+    @JoinColumn(name = "medicament", referencedColumnName = "id", insertable = false, updatable = false)
     private Medicament medicamentByMedicament;
 
     public int getId() {

@@ -21,4 +21,10 @@ public class AgentSerciveImp implements AgentService{
     public List<Agent> getAgents() {
         return agentRepo.findAll();
     }
+
+    @Override
+    @Transactional
+    public void saveAgent(Agent agent) {
+        agentRepo.save(agent);
+    }
 }

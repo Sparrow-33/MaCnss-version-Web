@@ -22,7 +22,7 @@ public class Radio {
     @Column(name = "created_at")
     private Timestamp createdAt;
     @ManyToOne
-    @JoinColumn(name = "dossier", referencedColumnName = "id", nullable = false)
+    @JoinColumn(name = "dossier", referencedColumnName = "id", nullable = false, insertable = false ,updatable = false)
     private Dossier dossierByDossier;
 
     public int getId() {

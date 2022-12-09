@@ -21,10 +21,10 @@ public class Visite {
     @Column(name = "tarif")
     private BigInteger tarif;
     @ManyToOne
-    @JoinColumn(name = "dossier", referencedColumnName = "id")
+    @JoinColumn(name = "dossier", referencedColumnName = "id", insertable = false, updatable = false)
     private Dossier dossierByDossier;
     @ManyToOne
-    @JoinColumn(name = "code", referencedColumnName = "code")
+    @JoinColumn(name = "code", referencedColumnName = "code", insertable = false, updatable = false)
     private Docteur docteurByCode;
 
     public int getId() {
