@@ -34,7 +34,7 @@ public class Dossier {
     @OneToMany(mappedBy = "dossierByDossier")
     private Collection<Analyses> analysesById;
     @ManyToOne
-    @JoinColumn(name = "matricule", referencedColumnName = "matricule")
+    @JoinColumn(name = "matricule", referencedColumnName = "matricule", insertable = false, updatable = false)
     private Patient patientByMatricule;
     @OneToMany(mappedBy = "dossierByDossier")
     private Collection<PatientMedicament> patientMedicamentsById;
