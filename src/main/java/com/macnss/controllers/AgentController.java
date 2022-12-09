@@ -13,13 +13,13 @@ import java.util.List;
 @Controller
 @RequestMapping("/agent")
 public class AgentController {
-//    @Autowired
-//    private AgentService agentService;
+    @Autowired
+    private AgentService agentService;
 
     @PostMapping("/signIn")
     public String verification() {
-//        List<Agent> agentList = agentService.getAgents();
-//        System.out.println(agentList.get(0).getEmail());
+        List<Agent> agentList = agentService.getAgents();
+        System.out.println(agentList.get(0).getEmail());
         System.out.println("heeere");
         return "agent/verification";
     }

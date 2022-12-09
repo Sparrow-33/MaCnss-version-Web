@@ -11,18 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7f947b4b-37d9-42ed-9d2b-5e527a20f772" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/conf/PersistenceJpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/conf/PersistenceJpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/controllers/AgentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/controllers/AgentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Analyses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Analyses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Dossier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Dossier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/entities/PatientMedicament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/entities/PatientMedicament.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Visite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/entities/Visite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/repositories/AgentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/repositories/AgentRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/services/AgentSerciveImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/services/AgentSerciveImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/services/AgentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/services/AgentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/servicesTest/AgentSerciveImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/servicesTest/AgentSerciveImpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -240,6 +233,18 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.AgentSerciveImpTest" />
       <item itemvalue="JUnit.AgentSerciveImpTest.saveAgent" />
@@ -263,7 +268,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670409132071</updated>
       <workItem from="1670409134214" duration="29058000" />
-      <workItem from="1670584037552" duration="2561000" />
+      <workItem from="1670584037552" duration="5454000" />
     </task>
     <servers />
   </component>
@@ -280,5 +285,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/macnss/conf/PersistenceJpaConfig.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/macnss/conf/PersistenceJpaConfig.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
