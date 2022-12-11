@@ -10,15 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f947b4b-37d9-42ed-9d2b-5e527a20f772" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/macnss/helper/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agent/components/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agent/dashboard.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/cnssImg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/controllers/AgentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/controllers/AgentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agent/verification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/agent/verification.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/repositories/AgentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/repositories/AgentRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/services/AgentSerciveImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/services/AgentSerciveImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/macnss/services/AgentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/macnss/services/AgentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +274,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670409132071</updated>
       <workItem from="1670409134214" duration="29058000" />
-      <workItem from="1670584037552" duration="12957000" />
+      <workItem from="1670584037552" duration="18849000" />
     </task>
     <servers />
   </component>
