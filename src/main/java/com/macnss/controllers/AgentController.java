@@ -17,10 +17,15 @@ public class AgentController {
     private AgentService agentService;
 
     @PostMapping("/signIn")
-    public String verification() {
+    public String signIn() {
         List<Agent> agentList = agentService.getAgents();
         System.out.println(agentList.get(0).getEmail());
         System.out.println("heeere");
         return "agent/verification";
+    }
+
+    @PostMapping("/codeVerification")
+    public String verification() {
+        return "agent/dashborad";
     }
 }
