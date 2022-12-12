@@ -35,7 +35,7 @@ public class AgentSerciveImp implements AgentService{
     public Agent signIn(String email, String password) {
         Agent agent = new Agent();
         agent = findByEmail(email, agent);
-        if (!agent.equals(null)) {
+        if (agent != null) {
             if (PasswordManager.passwordVerify(password, agent.getPassword())) {
                 return agent;
             }
@@ -54,6 +54,8 @@ public class AgentSerciveImp implements AgentService{
         }
         return null;
     }
+
+
 
 
 }

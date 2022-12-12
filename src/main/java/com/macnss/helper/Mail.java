@@ -10,8 +10,8 @@ public class Mail {
     }
 
     public static Boolean getaBoolean(String body, String subject, String email) {
-        final String username = "PUT SENDER MAIL HERE"; //
-        final String password = "PUT YOUR ACCOUNT TOKEN";
+        final String username = "medandhala@gmail.com"; //
+        final String password = "gzhthpkhuxcustdd";
         Properties properties = System.getProperties();
         properties.put("mail.smtp.auth", true);
         properties.put("mail.smtp.host","smtp.gmail.com");
