@@ -3,7 +3,8 @@
 <html>
 <c:import url="components/head.jsp"></c:import>
 <body>
+<c:import url="components/header.jsp"></c:import>
 
-
+<h1>DASHBOARD</h1>
 </body>
 </html>
