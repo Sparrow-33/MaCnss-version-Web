@@ -19,7 +19,7 @@ public class Visite {
     private Integer code;
     @Basic
     @Column(name = "tarif")
-    private BigInteger tarif;
+    private Double tarif;
     @ManyToOne
     @JoinColumn(name = "dossier", referencedColumnName = "id", insertable = false, updatable = false)
     private Dossier dossierByDossier;
@@ -51,11 +51,11 @@ public class Visite {
         this.code = code;
     }
 
-    public BigInteger getTarif() {
+    public Double getTarif() {
         return tarif;
     }
 
-    public void setTarif(BigInteger tarif) {
+    public void setTarif(Double tarif) {
         this.tarif = tarif;
     }
 

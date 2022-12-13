@@ -6,6 +6,7 @@ import java.math.BigInteger;
 import java.sql.Timestamp;
 import java.util.Collection;
 import java.util.Objects;
+import java.util.UUID;
 
 @Entity
 public class Dossier {
@@ -15,7 +16,7 @@ public class Dossier {
     private int id;
     @Basic
     @Column(name = "matricule")
-    private Object matricule;
+    private UUID matricule;
     @Basic
     @Column(name = "pieces")
     private int pieces;
@@ -51,11 +52,11 @@ public class Dossier {
         this.id = id;
     }
 
-    public Object getMatricule() {
+    public UUID getMatricule() {
         return matricule;
     }
 
-    public void setMatricule(Object matricule) {
+    public void setMatricule(UUID matricule) {
         this.matricule = matricule;
     }
 
