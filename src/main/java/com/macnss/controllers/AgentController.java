@@ -27,23 +27,23 @@ public class AgentController {
 
        String email = request.getParameter("email");
        String pwd = request.getParameter("password");
-//       Agent agent = agentService.signIn(email, pwd);
-//       if (agent != null) {
-//            code =   codeVerification.codeGenerator();
-//           Mail.sendMail("Votre code de verifiction : \n "+code, "Code de verification Macnss", "muiugfbne@mozmail.com");
+       Agent agent = agentService.signIn(email, pwd);
+       if (agent != null) {
+            code =   codeVerification.codeGenerator();
+           Mail.sendMail("Votre code de verifiction : \n "+code, "Code de verification Macnss", "muiugfbne@mozmail.com");
 
            return "agent/verification";
-//       }
-//           return "index";
+       }
+           return "index";
     }
 
     @PostMapping("/codeVerification")
     public String verification(HttpServletRequest request) {
-//        String inputCode = request.getParameter("code");
-//        if (codeVerification.verification(inputCode,this.code)) {
+        String inputCode = request.getParameter("code");
+        if (codeVerification.verification(inputCode,this.code)) {
             return "redirect: dashboard";
-//        }
-//        return "agent/verification";
+        }
+        return "agent/verification";
     }
 
     @GetMapping("/dashboard")
